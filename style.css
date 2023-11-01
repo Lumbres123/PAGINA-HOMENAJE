@@ -10,7 +10,7 @@ html{
 body{
     background-color: rgb(217, 217, 220);
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}git push -u origin main
+}
 #main{
     margin: 4rem 0.8rem ;
     background-color: #b1aeae;
@@ -35,12 +35,14 @@ main p{
     padding: 2rem ;
     background-color: rgb(253, 253, 254);
     border-radius: 0.7rem;
+    margin: 0;
 }
 #image{
     max-width: 100%;
-    margin: 0;
+    margin: 0 auto;
     border-radius: 0.7rem;
     display: block; 
+    height: auto;
 }
 #img-caption{
     font-size: 1.5rem;
